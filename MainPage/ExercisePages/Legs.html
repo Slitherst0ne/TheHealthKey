@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legs</title>
+    <link rel="stylesheet" type="text/css" href="LegsStyle.css" media="screen" />
+</head>
+
+<body>
+    <h1>Legs</h1>
+    <div class="navbar">
+        <a href="../theHealthKey.html"><b>Home</b></a>
+        <a href="../Motivation.html"><b>Motivation</b></a>
+
+        <div class="Nutdropdown">
+            <button class="dropbtn" onclick="myFunction()"><b>Nutrition</b>
+                <i class="arrow down"></i>
+            </button>
+
+
+
+            <!-- Each of these require their own personal .html page -->
+            <div class="Nutrition" id="nutritionList">
+                <b>
+                    <a href="../NutritionPages/AminoAcid.html"> AMINO ACID </a> <br>
+                    <a href="../NutritionPages/BCAA.html"> BCAA </a> <br>
+                    <a href="../NutritionPages/Creatine.html">CREATINE </a><br>
+                    <a href="../NutritionPages/Multivitamin.html">MULTIVITAMIN </a> <br>
+                    <a href="../NutritionPages/PreWorkout.html"> PRE-WORKOUT </a><br>
+                    <a href="../NutritionPages/Protein.html">PROTEIN </a><br>
+                </b>
+            </div>
+
+
+
+        </div>
+
+        <div class="Exdropdown">
+
+            <button class="dropbtn2" onclick="myFunction2()"><b>Exercises</b>
+                <i class="arrow down"></i>
+            </button>
+
+            <div class="Exercises" id="exercisesList">
+                <b>
+                    <a href="Chest.html"> CHEST </a>
+                    <a href="Back.html"> BACK </a>
+                    <a href="Arms.html">ARMS </a>
+                    <a href="Legs.html">LEGS </a>
+                    <a href="Shoulders.html"> SHOULDERS </a>
+                    <a href="Aerobic.html">AEROBIC </a>
+                </b>
+            </div>
+        </div>
+    </div>
+    <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("nutritionList").classList.toggle("show");
+        }
+
+        function myFunction2() {
+            document.getElementById("exercisesList").classList.toggle("show");
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function () {
+            if (!e.target.matches('.dropbtn')) {
+                var nutritionList = document.getElementById("nutritionList");
+                if (nutritionList.classList.contains('show')) {
+                    nutritionList.classList.remove('show');
+                }
+            }
+        }
+
+        window.onclick = function () {
+            if (!e.target.matches('.dropbtn2')) {
+                var nutritionList = document.getElementById("exercisesList");
+                if (nutritionList.classList.contains('show')) {
+                    nutritionList.classList.remove('show');
+                }
+            }
+        }
+    </script>
+
+
+    <h2>Bodyweight Leg Workouts At Home<sup><a
+                href="https://greatist.com/health/leg-workouts-at-home#leg-workouts-with-dumbbells"
+                style="color:rgb(107, 0, 156); font-size: 12">*
+            </a></sup></h2>
+    <ol>
+        <div>
+            <b>
+                <li style="text-align:center">
+                    Air squats or jump squats
+                </li>
+            </b>
+            <p style="text-align: center;">
+    <a href="https://www.youtube.com/watch?v=nHXJab2Ui7w"><img src="../../Resources/AirSquat.jpg"
+            alt="Air Squat" width="650" height="320"></a>
+</p>
+            <p style="text-align:left; font-size: small; color:red"> Click on Image for video</p>
+
+            <p>
+                Stand with feet just outside hip width. Drive hips back and then down. Keep chest up and focus on your
+                hips breaking below your knee crease. Push into heels to stand (or jump back up — jumping increases the
+                intensity and the calorie burn).
+
+            </p>
+        </div>
+
+        <hr>
+        <div>
+            <b>
+                <li style="text-align:center">
+                    Hip bridges
+                </li>
+            </b>
+            <p style="text-align: center;">
+    <a href="https://www.youtube.com/watch?v=Q_Bpj91Yiis"><img src="../../Resources/HipBridge.jpg"
+            alt="HipBridge" width="650" height="320"></a>
+</p>
+
+            <p>
+                Lie on your back with knees bent and feet flat on the floor. You should be able to touch your heels with
+                your fingertips.
+
+                <br><br>Brace core, squeeze glutes, push into heels, and lift your hips until shoulders, hips, and knees
+                are in a line. Slowly lower your hips back to the floor.
+            </p>
+        </div>
+        <hr>
+        <div>
+            <b>
+                <li style="text-align:center">
+                    Reverse lunges or jumping lunges
+                </li>
+            </b>
+            <p style="text-align: center;">
+    <a href="https://www.youtube.com/watch?v=C_P3Q-PssvY"><img src="../../Resources/LungeReversal.jpg"
+            alt="LungeReversal" width="650" height="320"></a>
+</p>
+
+            <p>
+                Start standing. Step your left foot back into a lunge, keeping right foot flat, right shin vertical, and
+                chest up. Step left foot forward and repeat on the right.
+
+                <br><br>For a jumping lunge, explode up quickly from the bottom of the lunge, switching your feet in the
+                air and controlling your landing. This more advanced jumping version adds a cardiovascular and stability
+                challenge.
+
+            </p>
+        </div>
+        <hr>
+        <div>
+            <b>
+                <li style="text-align:center">
+                    Single-leg deadlifts
+                </li>
+            </b>
+            <p style="text-align: center;">
+    <a href="https://www.youtube.com/watch?v=HtHxnWmMgzM"><img src="../../Resources/SingleLeg.jpg"
+            alt="Single-leg deadlifts
+            " width="650" height="320"></a>
+</p>
+
+            <p>
+                Start with left foot planted on the floor. Hinging at your hips, with a slight bend in left knee, reach
+                arms forward and push right foot back. Focus on keeping hips and shoulders in one line. Flex your back
+                ankle and press your heel toward the wall behind you. Squeeze glutes and drive right leg forward to
+                return to the starting position.
+
+            </p>
+        </div>
+        <hr>
+        <div>
+            <b>
+                <li style="text-align:center">
+                    Step-ups
+                </li>
+            </b>
+            <p style="text-align: center;">
+    <a href="https://www.youtube.com/watch?v=wfhXnLILqdk"><img src="../../Resources/StepUp.jpg"
+            alt="StepUp" width="650" height="320"></a>
+</p>
+
+            <p>
+                If you have a bench , lift right foot and place it on the bench. Keeping chest up and
+                right shin vertical, push into right heel and step up onto the bench. Maintain control as you return to
+                the starting position.
+
+                <br><br>If you don't have a bench or other object to step onto: Start kneeling, step your right foot
+                forward, and stand up. Then return to the kneeling position.
+
+            </p>
+        </div>
+    </ol>
+    <hr>
+    <hr>
+
+    <h2>The 5 Best Leg Exercises for building Mass & Strength<sup><a
+                href=" https://www.kingofthegym.com/best-leg-exercises/ "
+                style="color:rgb(107, 0, 156); font-size: 12">*
+            </a></sup></h2>
+    <hr>
+    <ol>
+        <div>
+            <b>
+                <li style="text-align:center">
+                    Squat
+                </li>
+            </b>
+            <p style="text-align: center;">
+                <a href="https://www.youtube.com/watch?v=U3HlEF_E9fo"><img src="../../Resources/squat.jpg" alt="squat"
+                        width="650" height="320"></a>
+            </p>
+
+            <p>
+                Start by placing a barbell in a squat or power rack at about shoulder height.
+
+                <br><br>Get under the bar and rest it upon your upper traps muscles. Hoist it up and over the rack pins
+                and take a step back.
+
+                <br><br>Stand with your feet hip width apart and toes pointed. Maintain a slight arch in you lower back,
+                keep your upper back straight and head facing forwards.
+
+                <br><br>Keep your torso as close to vertical as is possible throughout the movement (you will lean
+                forward somewhat).
+
+                <br><br>Squat down by bending your knees and hips until your thighs are at least parallel to the ground.
+
+                <br><br>Squat up by extending your knees and hips until you're standing fully upright. Repeat.
+
+            </p>
+        </div>
+        <hr>
+        <div>
+            <b>
+                <li style="text-align:center">
+                    Deadlift
+                </li>
+            </b>
+            <p style="text-align: center;">
+                <a href="https://www.youtube.com/watch?v=ytGaGIn3SjE"><img src="../../Resources/DeadLiftLegs.jpg"
+                        alt="Deadlift" width="650" height="320"></a>
+            </p>
+
+            <p>
+                Begin with a loaded barbell on the ground. Stand in front of the barbell so that it is directly above
+                the middle of your feet. Your feet should be hip width apart with toes out.
+
+                <br><br>Bend over at the hips and bend the knees slightly, to lower your torso until your shins touch
+                the bar.
+
+                <br><br>Grab the bar with a shoulder width mixed grip (one hand over, one hand under). Your arms should
+                be just outside of your knees.
+
+                <br><br>Put your chest out and have your head facing forwards with your back straight and arms fully
+                extended. Your hips should be as high as possible without rounding your back or lowering your chest.
+
+                <br><br>Pull the weight up to your knees, using mostly knee extension. When the bar gets to your knees,
+                drive your hips forward by squeezing your glutes. Go until you lockout. Keep the bar touching your legs
+                the whole time.
+
+                <br><br>Go in reverse to lower the weight back to the floor, keeping the bar against your legs.
+            </p>
+        </div>
+        <hr>
+        <div>
+            <b>
+                <li style="text-align:center">
+                    Barbell Step Up
+                </li>
+            </b>
+            <p style="text-align: center;">
+                <a href="https://www.youtube.com/watch?v=860722r7v2E"><img src="../../Resources/BarbellStepUp.jpg"
+                        alt="Barbell Step Up" width="650" height="320"></a>
+            </p>
+
+            <p>
+                Stand in front of a box (or a sturdy bench) with a loaded barbell on your upper back.
+
+                <br><br>Assume a hip width stance with your feet forward. Keep your chest up, eyes forward and torso
+                upright for the movement. Raise one knee up and plant your foot down onto the box. Your thigh should be
+                parallel to the floor.
+
+                <br><br>Extend your leading knee and hip to step up and bring your other foot onto the box.
+
+                <br><br>Reverse the motion by bending your leading knee and and hip and carefully stepping back with
+                your leg.
+
+                <br><br>Repeat. Switch sides and execute the same number of repetitions.
+            </p>
+        </div>
+        <hr>
+        <div>
+            <b>
+                <li style="text-align:center">
+                    Dumbbell Lunge
+                </li>
+            </b>
+            <p style="text-align: center;">
+                <a href="https://www.youtube.com/watch?v=D7KaRcUTQeE"><img src="../../Resources/DumbbellLunge.jpg"
+                        alt="Dumbbell Lunge" width="650" height="320"></a>
+            </p>
+
+            <p>
+                Hold a pair of dumbbells in your hands using a neutral grip (palms facing in), with your arms at your
+                sides.
+
+                <br><br>Stand with your feet hip width apart and toes forward. Keep your chest out, torso upright and
+                and eyes forward during the lift.
+
+                <br><br>Take a step forward with one foot, your heel is hits the ground first. Lower yourself in a controlled manner by bending your trailing knee, leading knee and leading hip. Go down until your knee touches the floor. Your leading knee should never go past your toes.
+
+                <br><br>Return to the starting position by pushing off your leading foot and straightening your legs to step back into the starting position.
+
+                <br><br>Repeat. Then the do the same number of reps on the other side.
+            </p>
+        </div>
+        <hr>
+        <hr>
+        <div>
+            <b>
+                <li style="text-align:center">
+                    Leg Press
+                </li>
+            </b>
+            <p style="text-align: center;">
+                <a href="https://www.youtube.com/watch?v=IZxyjW7MPJQ"><img src="../../Resources/LegPress.jpg"
+                        alt="Leg Press" width="650" height="320"></a>
+            </p>
+
+            <p>
+                Sit down on the leg press machine. Put your legs up and place your feet about shoulder width apart on the platform with your feet pointed slightly out.
+
+                <br><br>Push the weight up and release the safety handles to unrack the sled.
+
+                <br><br>Grasp the grip handles tightly and pull down on them to keep your butt on the seat pad during the lift. Also, make sure your back stays firmly pressed against the back pad.
+
+                <br><br>Lower the sled by bending your knees and hips until your knees are at 90°. Don’t do a partial rep and don’t go so deep that your lower back rounds.
+
+                <br><br>Extend your knees and hips to press the weight up until your legs are locked. Repeat.
+            </p>
+        </div>
+
+
+
+    </ol>
+
+
+
+
+
+
+
+    <div class="navbar">
+        <a href="Legs.html"><b>Back To Top</b></a>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,149 @@
+body {
+    background-color: rgb(54, 52, 52);
+
+}
+
+h1 {
+    color: rgb(243, 86, 38);
+    text-decoration: dotted;
+    text-align: center;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    text-size-adjust: inherit;
+    color: rgb(243, 86, 38);
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    text-align: left;
+    text-size-adjust: inherit;
+    color: rgb(243, 86, 38);
+    text-shadow: 1.5px 1.5px rgb(2, 2, 2);
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p, li {
+    text-align: Left;
+    color: yellow;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.center{
+    background-color:rgb(0, 0, 0);
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border:5px solid black ;
+    
+   
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(243, 86, 38);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    box-shadow: 0px 8px 16px 0px rgb(236, 240, 17);
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+
+
+.Nutdropdown, .Exdropdown{
+    float: left;
+    overflow: hidden;
+  }
+  
+  .Nutdropdown .dropbtn, .Exdropdown .dropbtn2 {
+    cursor: pointer;
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    /* text-shadow: 4px 4px rgb(0, 0, 0); */
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .Nutdropdown:hover .dropbtn, .dropbtn:focus, .Exdropdown:hover .dropbtn2, .dropbtn2:focus {
+    background-color: rgb(5, 5, 1);
+   
+  }
+  
+  .Nutrition {
+    display: none;
+    position: absolute;
+    background-color: rgb(243, 86, 38);
+    min-width: 160px;
+    box-shadow: 0px 10px 18px 0px rgb(0, 0, 0);
+    z-index: 1;
+  }
+  
+  .Nutriton a{
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+  
+  .Exercises a{
+    float: none;
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+
+  .Exercises {
+    display: none;
+    position:absolute;
+    background-color: rgb(243, 86, 38);
+    min-width: 160px;
+    box-shadow:  0px 10px 18px 0px rgb(0, 0, 0);
+    z-index: 1;
+  }
+
+
+  .Nutrition a:hover, .Exercises a:hover {
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+  }
+  
+  .show {
+    display: block;
+  }
+
+  .arrow {
+    border: solid rgb(255, 255, 255);
+    border-width: 2 5px 5px 2;
+    display: inline-block;
+    padding: 3px;
+  }
+
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    
+  }

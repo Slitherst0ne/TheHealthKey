@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protein</title>
+    <link rel="stylesheet" type="text/css" href="ProteinStyle.css" media="screen" />
+</head>
+
+<body>
+    <h1>
+        Protein
+    </h1>
+
+    <hr>
+
+    <div class="navbar">
+        <a href="../theHealthKey.html"><b>Home</b></a>
+        <a href="../Motivation.html"><b>Motivation</b></a>
+
+        <div class="Nutdropdown">
+            <button class="dropbtn" onclick="myFunction()"><b>Nutrition</b>
+                <i class="arrow down"></i>
+            </button>
+
+
+
+            <!-- Each of these require their own personal .html page -->
+            <div class="Nutrition" id="nutritionList">
+                <b>
+                    <a href="AminoAcid.html"> AMINO ACID </a> <br>
+                    <a href="BCAA.html"> BCAA </a> <br>
+                    <a href="Creatine.html">CREATINE </a><br>
+                    <a href="Multivitamin.html">MULTIVITAMIN </a> <br>
+                    <a href="PreWorkout.html"> PRE-WORKOUT </a><br>
+                    <a href="Protein.html">PROTEIN </a><br>
+                </b>        
+            </div>
+
+
+
+        </div>
+
+        <div class="Exdropdown">
+
+            <button class="dropbtn2" onclick="myFunction2()"><b>Exercises</b>
+                <i class="arrow down"></i>
+            </button>
+
+            <div class="Exercises" id="exercisesList">
+                <b>
+                    <a href="../ExercisePages/Chest.html"> CHEST </a>
+                    <a href="../ExercisePages/Back.html"> BACK </a>
+                    <a href="../ExercisePages/Arms.html">ARMS </a>
+                    <a href="../ExercisePages/Legs.html">LEGS </a>
+                    <a href="../ExercisePages/Shoulders.html"> SHOULDERS </a>
+                    <a href="../ExercisePages/Aerobic.html">AEROBIC </a>
+                </b>
+            </div>
+        </div>
+    </div>
+    <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("nutritionList").classList.toggle("show");
+        }
+
+        function myFunction2() {
+            document.getElementById("exercisesList").classList.toggle("show");
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function () {
+            if (!e.target.matches('.dropbtn')) {
+                var nutritionList = document.getElementById("nutritionList");
+                if (nutritionList.classList.contains('show')) {
+                    nutritionList.classList.remove('show');
+                }
+            }
+        }
+
+        window.onclick = function () {
+            if (!e.target.matches('.dropbtn2')) {
+                var nutritionList = document.getElementById("exercisesList");
+                if (nutritionList.classList.contains('show')) {
+                    nutritionList.classList.remove('show');
+                }
+            }
+        }
+    </script>
+
+    <div>
+        <h2>What is Protein?</h2>
+        <p>
+            Protein is a macronutrient that is essential to building
+            muscle mass. It is commonly found in animal products and also present
+            in other sources, such as nuts and legumes.<sup><a href=" https://www.livescience.com/53044-protein.html "
+                    style="color:aquamarine; font-size: 12">*
+                </a></sup>
+            <br><br>
+            Protein is one of the building
+            blocks of bone, muscle, and skin. The body needs
+            it to produce hormones, enzymes, and other chemicals.
+           
+        </p>
+        <div>
+            <h2>What are the Types of Protein Powders?<sup><a
+                        href=" https://www.medicalnewstoday.com/articles/323093#health-benefits "
+                        style="color:aquamarine; font-size: 12">*
+                    </a></sup></h2>
+            <p>
+            <ul>
+                <li><b style="color:rgb(235, 128, 28)">Whey:</b>This water-soluble milk protein is popular among
+                    athletes. It is a complete protein,
+                    meaning that it contains all of the amino acids that the human body requires from food. The body
+                    absorbs whey protein quickly and easily.
+                </li>
+                <br>
+                <li><b style="color: rgb(235, 128, 28)">Casein: </b> This type of protein is rich in glutamine, an amino
+                    acid that may speed up muscle
+                    recovery after exercise. Casein comes from dairy, making it unsuitable for vegans and people with
+                    milk allergies. The body digests this protein more slowly, so it may be best to take it at night.
+                </li>
+                <br>
+
+                <li><b style="color: rgb(235, 128, 28)">Soy:</b>Soy protein is an excellent alternative to whey or
+                    casein for people who do not consume
+                    dairy. It also contains all the essential amino acids.
+                </li>
+                <br>
+
+                <li><b style="color:rgb(235, 128, 28)">Pea:</b>Many plant-based protein powders contain pea protein,
+                    which is a high-quality alternative
+                    to soy- and dairy-based proteins. Pea protein is a good source of the amino acid arginine. </li>
+                <br>
+                <li><b style="color:rgb(235, 128, 28)">Hemp: </b>Hemp seeds are complete proteins that also contain
+                    essential fatty acids. This makes
+                    hemp an excellent choice for vegans or those with dairy or soy allergies. </li>
+            </ul>
+            </p>
+        </div>
+
+    </div>
+    <hr>
+    <hr>
+
+    <div>
+        <h2>Who should be taking protein?</h2>
+        <p>
+            Research suggests older adults and exercisers looking to support muscle growth may benefit from eating
+            one-and-a-half to two times as much protein as the RDA. As we age we lose muscle, and research shows
+            boosting protein may help increase strength and lean body mass.
+            <sup><a href="https://www.health.harvard.edu/blog/the-scoop-on-protein-powder-2020030918986"
+                    style="color:aquamarine; font-size: 12">*
+                </a></sup>
+            <br><br>
+            For the vast majority of people, getting protein from their would not be difficult, so there’s no need to
+            spend a lot of time and money looking for a protein powder.
+            <br>
+            But if you’re struggling to get enough protein in your diet, or if you need more protein
+            than the average person because of your strenuous workouts, then a shake might help with that. It really
+            comes down to your lifestyle, your needs, and your preferences.
+            <sup><a href="https://www.self.com/story/who-needs-protein-powder" style="color:aquamarine; font-size: 12">*
+                </a></sup>
+        </p>
+    </div>
+    <hr>
+    <hr>
+
+
+    <div>
+        <h2>When Is The Best Time To Take Protein?</h2>
+        <p>
+            <b style="color:rgb(235, 128, 28)">For endurance training,</b> combining protein with a source of carbs
+            during and after exercise may improve
+            performance and recovery and reduce soreness.
+            <br>
+            <br>
+            <b style="color:rgb(235, 128, 28)"> For resistance training,</b> protein can help improve both performance
+            and recovery, whether or not it’s
+            consumed with carbs.<sup><a href="https://www.rzonefitness.com/2018/02/when-is-the-best-time-to-take-protein/" style="color:aquamarine; font-size: 12">*
+            </a></sup>
+        </p>
+
+        <h2>Should You Take Protein Before Bed?</h2>
+        <p>
+            Taking protein before
+            bed may be an effective strategy to help build muscle, increase strength and
+            improve exercise performance and recovery. Elderly people looking to preserve
+            muscle mass may also benefit from taking protein before bed.
+
+           <br><br> If you want to take protein before bed, you may consider taking a form of casein protein. Casein is digested
+            slowly, which means it can provide the body with a steady supply of protein through the night
+
+            <br><br>You can also get the benefits of casein protein from real foods instead of supplements. Dairy products like
+            cottage cheese and Greek yogurt are high in casein.<sup><a href="https://www.rzonefitness.com/2018/02/when-is-the-best-time-to-take-protein/" style="color:aquamarine; font-size: 12">*
+            </a></sup>
+        </p>
+    </div>
+    <hr>
+    <hr>
+
+    <div>
+        <h2>Why should someone take Protein?</h2>
+        <p>
+            <br>The possible health benefits of protein
+            powders include the following:<sup><a
+                    href=" https://www.medicalnewstoday.com/articles/323093#health-benefits "
+                    style="color:aquamarine; font-size: 12">*
+                </a></sup>
+        <ul>
+            <li>Weight Management</li>
+            <li>Muscle Growth</li>
+            <li>Recovery after Exercise</li>
+        </ul>
+
+        </p>
+    </div>
+    <hr>
+    <hr>
+    <div>
+        <h2>Where to Purchase Top Rated Protein Powder?<sup><a href=" https://www.foodnetwork.com/healthyeats/healthy-tips/best-protein-powders " style="color:aquamarine; font-size: 12">*
+        </a></sup> </h2>
+        <p>
+
+            <ul>
+                <li> Considered Best Overall Protein:<a href="https://www.amazon.com/BioSteel-Natural-Whey-Isolate-Plus/dp/B07C1D578J?ots=1&slotNum=2&imprToken=0cc117c1-21d4-f12b-778&tag=fnxrt495-20&linkCode=w50" style="color:aquamarine">BioSteel 100% Whey Protein Powder </a></li>
+               <br> <li> Considered Best Chocolate Protein:<a href="https://www.amazon.com/Sports-Protein-Creamy-Chocolate-6-Pound/dp/B0013OWAK0?ots=1&slotNum=5&imprToken=0cc117c1-21d4-f12b-778&tag=fnxrt495-20&linkCode=w50"style="color: aquamarine">NOW Foods Whey Protein Creamy Chocolate </a></li>
+               <br> <li> Considered Best Vanilla Protein:<a href="https://www.amazon.com/Garden-Life-Organic-Plant-Based-Protein/dp/B01N7DTD98?ots=1&slotNum=9&imprToken=0cc117c1-21d4-f12b-778&tag=fnxrt495-20&linkCode=w50"style="color: aquamarine"> Garden of Life Sport Plant-Based Vanilla </a></li>
+               <br> <li> Considered Best Budget-Friendly Protein:<a href="https://www.amazon.com/Optimum-Nutrition-Standard-Protein-Chocolate/dp/B002DYIZH6?ots=1&slotNum=13&imprToken=0cc117c1-21d4-f12b-778&th=1&tag=fnxrt495-20"style="color:aquamarine">Optimum Nutrition Gold Standard 100% Whey </a></li>
+               <br> <li> Considered Best Not Vanilla or Chocolate Protein:<a href="https://www.amazon.com/Orgain-Organic-Protein-Caffeine-Flavored/dp/B09CF21K2S?ots=1&slotNum=17&imprToken=0cc117c1-21d4-f12b-778&tag=fnxrt495-20&linkCode=w50"style="color:aquamarine">Orgain Iced Coffee Flavored </a></li>
+               <br> <li> Considered Best Vegan Protein:<a href="https://myvega.com/collections/sport-nutrition/products/vega-sport-premium-protein?variant=13286145490987&cjevent=f034f16e0b3211ed806ad4510a1c0e0e&utm_source=cj&utm_medium=affiliate&utm_campaign=2019_mar_freeshipping_ca&utm_content=textlink_freeshipping_v01&cjdata=MXxOfDB8WXww"style="color:aquamarine">Vega Sport </a></li>
+               <br> <li> Considered Best Small Brand Protein:<a href="https://ladder.sport/products/whey-protein/?sku=BAGWPCH303058"style="color:aquamarine"> Ladder Whey Protein </a></li>
+               <br> <li> Considered Most Versatile Protein:<a href="https://www.amazon.com/Bobs-Red-Mill-Protein-14-ounce/dp/B08KJWDPX4?ots=1&slotNum=21&imprToken=0cc117c1-21d4-f12b-778&tag=fnxrt495-20&linkCode=w50"style="color:aquamarine"> Bob's Red Mill Almond Protein Powder</a></li>
+            </ul>
+        </p>
+
+    </div>
+    <hr>
+
+    <div class="navbar">
+        <a href="Protein.html"><b>Back To Top</b></a>
+    </div>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,385 @@
+<head>
+    <title>AminoAcids</title>
+    <link rel="stylesheet" type="text/css" href="AminoAcidStyle.css" media="screen" />
+</head>
+
+<body>
+    <h1>
+        Amino Acids
+    </h1>
+    <hr>
+
+    <div class="navbar">
+        <a href="../theHealthKey.html"><b>Home</b></a>
+        <a href="../Motivation.html"><b>Motivation</b></a>
+
+        <div class="Nutdropdown">
+            <button class="dropbtn" onclick="myFunction()"><b>Nutrition</b>
+                <i class="arrow down"></i>
+            </button>
+
+
+
+            <!-- Each of these require their own personal .html page -->
+            <div class="Nutrition" id="nutritionList">
+                <b>
+                <a href="AminoAcid.html"> AMINO ACID </a> <br>
+                <a href="BCAA.html"> BCAA </a> <br>
+                <a href="Creatine.html">CREATINE </a><br>
+                <a href="Multivitamin.html">MULTIVITAMIN </a> <br>
+                <a href="PreWorkout.html"> PRE-WORKOUT </a><br>
+                <a href="Protein.html">PROTEIN </a><br>
+                </b>        
+            </div>
+
+
+
+        </div>
+
+        <div class="Exdropdown">
+
+            <button class="dropbtn2" onclick="myFunction2()"><b>Exercises</b>
+                <i class="arrow down"></i>
+            </button>
+
+            <div class="Exercises" id="exercisesList">
+                <b>
+                <a href="../ExercisePages/Chest.html"> CHEST </a>
+                <a href="../ExercisePages/Back.html"> BACK </a>
+                <a href="../ExercisePages/Arms.html">ARMS </a>
+                <a href="../ExercisePages/Legs.html">LEGS </a>
+                <a href="../ExercisePages/Shoulders.html"> SHOULDERS </a>
+                <a href="../ExercisePages/Aerobic.html">AEROBIC </a>
+                </b>
+            </div>
+        </div>
+    </div>
+    <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("nutritionList").classList.toggle("show");
+        }
+
+        function myFunction2() {
+            document.getElementById("exercisesList").classList.toggle("show");
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function () {
+            if (!e.target.matches('.dropbtn')) {
+                var nutritionList = document.getElementById("nutritionList");
+                if (nutritionList.classList.contains('show')) {
+                    nutritionList.classList.remove('show');
+                }
+            }
+        }
+
+        window.onclick = function () {
+            if (!e.target.matches('.dropbtn2')) {
+                var nutritionList = document.getElementById("exercisesList");
+                if (nutritionList.classList.contains('show')) {
+                    nutritionList.classList.remove('show');
+                }
+            }
+        }
+    </script>
+
+    <h2>
+        What are Amino Acids?
+    </h2>
+
+    <p>
+        Amino acids are organic molecules that join together to make proteins.
+        The human body uses proteins for growth, the breakdown of food, repair,
+        and many other functions. This is why amino acids are often referred
+        to as the “building blocks” of both proteins and life. <br><br>
+
+        Your body needs 20 different amino acids to function correctly. Nine of
+        these amino acids are called essential amino acids. Essential amino acids must be
+        consumed through the food you eat. These Essemtial amino acids can be found in a
+        variety of foods, including beef, eggs and dairy.<sup><a href="https://www.inspiraadvantage.com/blog/amino-acids-mcat-what-you-need-to-know" style="color:aquamarine; font-size: 12">*
+        </a></sup><br>
+
+    </p>
+
+    <h2>
+        Lets Take A Closer Look
+    </h2>
+
+    <img src="../../Resources/essentialAminoAcids.jpg" alt="Amino Acid Structure" class="center">
+
+    <div>
+        <h2>
+            Essential Amino Acids
+        </h2>
+        <hr>
+        <h3>
+            *Leucine
+        </h3>
+        <p>
+            Leucine helps regulate blood sugar, improve wound healing, and produces
+            growth hormone. Leucine is best known for its role in muscular system:
+            Muscle Building, Muscle Recovery, Prevention of Muscle Loss, and Weight Control.
+            <sup><a href="https://www.myfooddata.com/articles/high-leucine-foods.php" style="color:aquamarine; font-size: 12">*
+            </a></sup>
+        </p>
+        <h3> Top 10 food's with Leucine</h3>
+        <ol>
+            <li>Chicken Leg</li>
+            <li>Beef</li>
+            <li>Pork Chops</li>
+            <li>Tuna</li>
+            <li>Firm Tofu</li>
+            <li>Canned Navy Beans</li>
+            <li>Milk</li>
+            <li>Low-Fat Ricotta Cheese</li>
+            <li>Squash and Pumpkin Seeds</li>
+            <li>Eggs</li>
+        </ol>
+    </div>
+    <hr>
+    <hr>
+    <div>
+        <h3>*Isoleucine</h3>
+        <p>
+            Isoleucine is an essential amino acid necessary for creating hemoglobin
+            as well as regulating blood sugar and energy levels.
+            <sup><a href="https://www.myfooddata.com/articles/high-Isoleucine-foods.php" style="color:aquamarine; font-size: 12">*
+            </a></sup>
+        </p>
+        <h3> Top 10 food's with Isoleucine</h3>
+        <ol>
+            <li>Beef (Skirt Steak)</li>
+            <li>Lean Chicken Breast</li>
+            <li>Lean Pork Chops</li>
+            <li>Tuna</li>
+            <li>Firm Tofu</li>
+            <li>Milk</li>
+            <li>Lentils</li>
+            <li>Kamut(Khorasan-Wheat)</li>
+            <li>Squash and Pumpkin Seeds</li>
+            <li>Podded Peas</li>
+        </ol>
+    </div>
+    <hr>
+    <hr>
+    <div>
+        <h3>*Valine</h3>
+        <p>
+            Valine is one of three branched-chain amino acids (the others are leucine and isoleucine)
+            that enhance energy, increase endurance, and aid in muscle tissue recovery and repair.
+            This group also lowers elevated blood sugar levels and increases growth hormone production.
+            <sup><a href="https://www.myfooddata.com/articles/high-Valine-foods.php" style="color:aquamarine; font-size: 12">*
+            </a></sup>
+        </p>
+        <h3> Top 10 food's with Valine</h3>
+        <ol>
+            <li>Beef (Skirt Steak)</li>
+            <li>Lean Chicken Breast</li>
+            <li>Lean Pork Chops</li>
+            <li>Tuna</li>
+            <li>Firm Tofu</li>
+            <li>Low-Fat Yogurt</li>
+            <li>Navy Beans</li>
+            <li>Podded Peas</li>
+            <li>Squash and Pumpkin Seeds</li>
+            <li>Oatmeal</li>
+        </ol>
+    </div>
+    <hr>
+    <hr>
+    <div>
+        <h3>Histidine</h3>
+        <p>
+            Histidine is an essential amino acid required for growth and tissue
+            repair, blood cell production, and creation of the
+            neurotransmitter <a href="https://www.webmd.com/allergies/what-are-histamines" style="color:aquamarine">
+                histamine</a>.
+            Histidine can even help protect tissues from damage caused by radation or heavy metals.
+            <sup><a href="https://www.myfooddata.com/articles/high-Histidine-foods.php" style="color:aquamarine; font-size: 12">*
+            </a></sup>
+        </p>
+        <h3> Top 10 food's with Histidine</h3>
+        <ol>
+            <li>Pork Chops</li>
+            <li>Beef(Skirt Steak)</li>
+            <li>Lean Chicken Breast</li>
+            <li>Tuna</li>
+            <li>Firm Tofu</li>
+            <li>Canned Navy Beans</li>
+            <li>Milk</li>
+            <li>Seeds (Squash and Pumpkin Seeds)</li>
+            <li>Whole Wheat Pasta</li>
+            <li>Eggs</li>
+        </ol>
+    </div>
+    <hr>
+    <hr>
+    <div>
+        <h3>Lysine</h3>
+        <p>
+            Lysine is important for proper growth, and it plays an
+            essential role in the production of carnitine, a nutrient
+            responsible for converting fatty acids into energy and
+            helping lower cholesterol. Lysine appears to help the
+            body absorb calcium, and it plays an important role in
+            the formation of collagen, a substance important for bones and
+            connective tissues including skin, tendons, and cartilage.
+            <sup><a href="https://www.myfooddata.com/articles/high-Lysine-foods.php" style="color:aquamarine; font-size: 12">*
+            </a></sup>
+        </p>
+        <h3> Top 10 food's with Lysine</h3>
+        <ol>
+            <li>Pork Chops</li>
+            <li>Beef(Skirt Steak)</li>
+            <li>Lean Chicken Breast</li>
+            <li>Tuna</li>
+            <li>Firm Tofu</li>
+            <li>Canned Navy Beans</li>
+            <li>Milk</li>
+            <li>Seeds (Squash and Pumpkin Seeds)</li>
+            <li>Whole Wheat Pasta</li>
+            <li>Eggs</li>
+        </ol>
+        <p>
+            For Vegans, Legumes(beasn, peas, and lentils) are the best sources of Lysine.<br>
+        </p>
+    </div>
+    <hr>
+    <hr>
+    <div>
+        <h3>Methionine</h3>
+        <p>
+            Methionine is a sulfur-containing amino acid that improves the
+            tone and elasticity of the skin,help reduce cholesterol levels, prevent kidney stones,
+            reduce the damage from heavy metals in the blood, counteract the toxic effects
+            of acetaminophen, promotes healthy hair and strengthens the nails.
+            Methionine supplements are commonly taken to treat various infections and
+            disorders, but there is limited scientific research to support the efficacy
+            of the supplements for the treatment of diseases. However, methionine is thought
+            to be effective in the treatment of Tylenol (acetaminophen) poisoning.
+            <br><br>
+            A deficiency of methionine can lead to inflammation of the liver (steatohepatitis),
+            anemia, and greying hair. However, a diet
+            low in methionine may also extend lifespan and reduce the risk of cancer.
+            <sup><a href="https://www.myfooddata.com/articles/high-Methionine-foods.php" style="color:aquamarine; font-size: 12">*
+            </a></sup>
+        </p>
+        <h3> Top 10 food's with Methionine</h3>
+        <ol>
+            <li>Ground Turkey</li>
+            <li>Beef(Skirt Steak)</li>
+            <li>Lean Pork Chops</li>
+            <li>Tuna</li>
+            <li>Firm Tofu</li>
+            <li>Milk</li>
+            <li>Low-Fat Ricotta Cheese</li>
+            <li>Brazil Nuts</li>
+            <li>Large White Beans</li>
+            <li>Quinoa</li>
+        </ol>
+    </div>
+    <hr>
+    <hr>
+    <div>
+        <h3>Phenylalanine</h3>
+        <p>
+            Phenylalanine is involved in the production of
+            the neurotransmitters <a href="https://my.clevelandclinic.org/health/articles/22611-epinephrine-adrenaline"
+                style="color:aquamarine">epinephrine</a>(adrenaline), <a
+                href="https://my.clevelandclinic.org/health/articles/22610-norepinephrine-noradrenaline"
+                style="color:aquamarine">norepinephrin</a>(noradrenaline), and <a
+                href="https://www.webmd.com/mental-health/what-is-dopamine" style="color:aquamarine">dopamine</a>,
+            which are essential for the proper functioning of the brain and
+            nervous system. Phenylalanine also helps with the production of the
+            pigment melanin, which gives color to the skin, hair, and eyes.
+            <br><br>
+            Most people can consume phenylalanine without any risk of side effects. However, some people have the rare
+            metabolic condition PKU, which causes the body to be unable to break down phenylalanine. This can lead to
+            harmful levels of phenylalanine in the body. So,
+            people with PKU must be cautious about the amount of phenylalanine they consume.
+            <sup><a href="https://www.myfooddata.com/articles/high-Phenylalanine-foods.php" style="color:aquamarine; font-size: 12">*
+            </a></sup>
+        </p>
+        <h3> Top 10 food's with Phenylalanine</h3>
+        <ol>
+            <li>Beef(Skirt Steak)</li>
+            <li>Lean Chicken Breast</li>
+            <li>Lean Pork Chops</li>
+            <li>Firm Tofu</li>
+            <li>Tuna</li>
+            <li>Pinto Beans</li>
+            <li>Milk</li>
+            <li>Squash and Pumpkin Seeds</li>
+            <li>Pasta</li>
+            <li>Sweet Potatoes</li>
+        </ol>
+    </div>
+    <hr>
+    <hr>
+    <div>
+        <h3>Threonine</h3>
+        <p>
+            Threonine helps keep connective tissues and muscles throughout
+            the body strong and elastic, including the
+            heart, where it is found in significant amounts.
+            <br><br>
+            Threonine has been used to treat intestinal disorders and indigestion and can
+            be used to help those suffering from depression and anxiety. Recently it has
+            been shown to have promising sleep-promoting effects, which may prove helpful
+            for those who have insomnia and other sleep disorders.
+            <sup><a href="https://www.myfooddata.com/articles/high-Threonine-foods.php" style="color:aquamarine; font-size: 12">*
+            </a></sup> <br><br>
+
+        </p>
+        <h3> Top 10 food's with Threonine</h3>
+        <ol>
+            <li>Beef(Skirt Steak)</li>
+            <li>Lean Chicken & Turkey</li>
+            <li>Lean Pork Chops</li>
+            <li>Tuna</li>
+            <li>Firm Tofu</li>
+            <li>Boiled Soybeans(Edamame)</li>
+            <li>Milk</li>
+            <li>Green Peas</li>
+            <li>Eggs</li>
+            <li>Squash and Pumpkin Seeds</li>
+        </ol>
+    </div>
+    <hr>
+    <hr>
+    <div>
+        <h3>Tryptophan</h3>
+        <p>
+            The body uses tryptophan to help make melatonin and serotonin.
+            Melatonin helps regulate the sleep-wake cycle, and serotonin
+            is thought to help regulate appetite, sleep, mood, and pain.
+            <br><br>
+            Serotonin is believed to play an important role in regulating sleep and
+            mood, which is why turkey
+            is sometimes attributed to making people sleepy.
+            <sup><a href="https://www.myfooddata.com/articles/high-Tryptophan-foods.php" style="color:aquamarine; font-size: 12">*
+            </a></sup>
+
+        </p>
+        <h3> Top 10 food's with Tryptophan</h3>
+        <ol>
+            <li>Lean Chicken & Turkey</li>
+            <li>Beef (Skirt Steak)</li>
+            <li>Lean Pork Chops</li>
+            <li>Firm Tofu</li>
+            <li>Fish(Salmon)</li>
+            <li>Boild Soybeans</li>
+            <li>Milk</li>
+            <li>Squash and Pumpkin Seeds</li>
+            <li>Oatmeal</li>
+            <li>Eggs</li>
+        </ol>
+    </div>
+    <hr>
+    <hr>
+    <div class="navbar">
+        <a href="AminoAcid.html"><b>Back To Top</b></a>
+    </div>
+</body>

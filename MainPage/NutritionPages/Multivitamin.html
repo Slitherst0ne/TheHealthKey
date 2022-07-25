@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MultiVitamin</title>
+    <link rel="stylesheet" type="text/css" href="MultivitaminStyle.css" media="screen" />
+</head>
+
+<body>
+    <h1>
+        MultiVitamin
+    </h1>
+
+    <hr>
+
+    <div class="navbar">
+        <a href="../theHealthKey.html"><b>Home</b></a>
+        <a href="../Motivation.html"><b>Motivation</b></a>
+
+        <div class="Nutdropdown">
+            <button class="dropbtn" onclick="myFunction()"><b>Nutrition</b>
+                <i class="arrow down"></i>
+            </button>
+
+
+
+            <!-- Each of these require their own personal .html page -->
+            <div class="Nutrition" id="nutritionList">
+                <b>
+                    <a href="AminoAcid.html"> AMINO ACID </a> <br>
+                    <a href="BCAA.html"> BCAA </a> <br>
+                    <a href="Creatine.html">CREATINE </a><br>
+                    <a href="Multivitamin.html">MULTIVITAMIN </a> <br>
+                    <a href="PreWorkout.html"> PRE-WORKOUT </a><br>
+                    <a href="Protein.html">PROTEIN </a><br>
+                </b>        
+            </div>
+
+
+
+        </div>
+
+        <div class="Exdropdown">
+
+            <button class="dropbtn2" onclick="myFunction2()"><b>Exercises</b>
+                <i class="arrow down"></i>
+            </button>
+
+            <div class="Exercises" id="exercisesList">
+                <b>
+                    <a href="../ExercisePages/Chest.html"> CHEST </a>
+                    <a href="../ExercisePages/Back.html"> BACK </a>
+                    <a href="../ExercisePages/Arms.html">ARMS </a>
+                    <a href="../ExercisePages/Legs.html">LEGS </a>
+                    <a href="../ExercisePages/Shoulders.html"> SHOULDERS </a>
+                    <a href="../ExercisePages/Aerobic.html">AEROBIC </a>
+                </b>
+            </div>
+        </div>
+    </div>
+    <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("nutritionList").classList.toggle("show");
+        }
+
+        function myFunction2() {
+            document.getElementById("exercisesList").classList.toggle("show");
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function () {
+            if (!e.target.matches('.dropbtn')) {
+                var nutritionList = document.getElementById("nutritionList");
+                if (nutritionList.classList.contains('show')) {
+                    nutritionList.classList.remove('show');
+                }
+            }
+        }
+
+        window.onclick = function () {
+            if (!e.target.matches('.dropbtn2')) {
+                var nutritionList = document.getElementById("exercisesList");
+                if (nutritionList.classList.contains('show')) {
+                    nutritionList.classList.remove('show');
+                }
+            }
+        }
+    </script>
+    <div>
+        <h2>What is a MultiVitamin?</h2>
+        <p>
+            Multivitamins are a combination of many
+            different vitamins that are normally found
+            in foods and other natural sources.
+            <br><br>
+            Multivitamins are used to provide vitamins that are
+            not taken in through the diet. Multivitamins are
+            also used to treat vitamin deficiencies (lack of vitamins)
+            caused by illness, pregnancy, poor nutrition,
+            digestive disorders, and many other conditions.<sup><a href=" https://www.emedicinehealth.com/drug-multivitamin/article_em.htm " style="color:aquamarine; font-size: 12">*
+            </a></sup>
+            
+            <br><br>
+        </p>
+        <p>
+            <b>NOTE:</b>
+            An overdose of vitamins A, D, E, or K can cause serious
+            or life-threatening side effects. Certain minerals
+            contained in a multivitamin may
+            also cause serious overdose symptoms if you take too much.
+        </p>
+    </div>
+    <hr>
+    <hr>
+
+    <div>
+        <h2>Who Might Benefit from a Multivitamin?</h2>
+        <p>
+        <ul>
+            <li> Women who are of childbearing age, pregnant or lactating.</li> <br>
+            <li> Obese individuals who have increased requirements for some nutrients. </li><br>
+            <li> Infants, children, and adolescents who are growing and developing.</li><br>
+            <li> Older adults who can experience reduced nutrient absorption and appetite.</li><br>
+            <li> People with nutrient absorption issues, including heavy alcohol users, people who had bariatric surgery
+                and
+                those on certain medications.</li><br>
+            <li> People with lower nutrient intakes, including those not consuming a healthy diet, those facing food
+                insecurity and potentially vegans or vegetarians.</li><br>
+            <li> Those likely to be low in vitamin D, including people who use sunscreen, cover all exposed skin when
+                outside
+                or have darker skin pigmentation.
+                <sup><a href=" https://www.forbes.com/health/body/should-you-take-a-multivitamin/ " style="color:aquamarine; font-size: 12">*
+                </a></sup>
+            
+            </li><br>
+        </ul>
+        </p>
+    </div>
+    <hr>
+    <hr>
+
+
+    <div>
+        <h2>When</h2>
+        <p>
+            Water-soluble vitamins are not readily stored in your body,
+            so you must consume them regularly to maintain healthy
+            levels. Water-soluble nutrients can be
+            taken with or without food and at any time of day.<br>
+        <ul>
+            <li>Vitamin C</li>
+            <li>B1 Thiamine</li>
+            <li>B2 Riboflavin </li>
+            <li>B3 Niacin</li>
+            <li>B5 Pantothetnic Acid</li>
+            <li>B6 Pyridoxine</li>
+            <li>B7 Biotin</li>
+            <li>B9 Folate</li>
+            <li>B12 Cobalamin</li>
+        </ul>
+        </p>
+        <p>
+
+            Unlike water-soluble vitamins, fat-soluble vitamins depend on fat for proper absorption. Thus, it’s
+            generally recommended that you take fat-soluble
+            compounds with a meal that contains fat.
+        <ul>
+            <li>Vitamin A</li>
+            <li>Vitamin D</li>
+            <li>Vitamin E</li>
+            <li>Vitamin K</li>
+        </ul>
+        </p>
+        <p>
+
+            Multivitamins typically contain a variety
+            of vitamins and minerals.
+            Some people prefer multivitamins over single-nutrient
+            supplements because they're
+            convenient and can be less expensive.<br><br>
+            Because these supplements commonly contain both
+            fat- and water-soluble vitamins,
+            it's typically recommended to consume them with a meal.<sup><a href=" https://www.healthline.com/nutrition/best-time-to-take-vitamins#water-soluble-vitamins " style="color:aquamarine; font-size: 12">*
+            </a></sup>
+        </p>
+    </div>
+    <hr>
+    <hr>
+
+    <div>
+        <h2>Why</h2>
+        <p>
+            Multivitamin supplements are an excellent source of vital
+            nutrients for your body that you may be lacking within
+            your diet. If you are active, then your body mustn't lack those essential
+            nutrients to ensure that you can recover from each workout.
+            <br>
+            <br>
+            Some vitamin deficiencies can cause many unwanted symptoms,
+            for instance, fatigue. If you are feeling fatigued all the
+            time, you will not be able to
+            put your best effort into your physical performance.
+            <br><br>
+            Furthermore, if your body is not receiving the vital
+            nutrients it needs to thrive, you can potentially
+            put yourself at risk for injuries. If your body
+            is not getting the bone and joint support it needs and you are physically
+            and mentally exhausted, an injury is likely to occur.
+            <sup><a href=" https://www.healthcanal.com/nutrition/best-multivitamin-for-athletes " style="color:aquamarine; font-size: 12">*
+            </a></sup>
+        </p>
+    </div>
+    <hr>
+    <hr>
+    <div>
+        <h2>Where Can You Buy Multivitamins?</h2>
+        <p>
+            <b>Recommended Multivitamins for Women:</b>
+            <ul>
+                <li>Overall great Multivitamin:<a href="https://www.amazon.com/Garden-Life-Multivitamin-Women-Supplement/dp/B00280M13Y/ref=sr_1_1_sspa?crid=3IHIVBPCQSIQS&keywords=Vitamin%2BCode%2BRaw%2BWhole%2BFood%2BMultivitamin%2Bfor%2BWomen&qid=1652724980&rdc=1&sprefix=vitamin%2Bcode%2Braw%2Bwhole%2Bfood%2Bmultivitamin%2Bfor%2Bwomen%2B%2Caps%2C60&sr=8-1-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExUlVSSVlTOUJCMldLJmVuY3J5cHRlZElkPUEwNTQ2Njk1MklNQzBISDY2TUkwOSZlbmNyeXB0ZWRBZElkPUEwNzQwMDk0Mkw1NTQ2M0JROE9VUSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU&th=1&asc_refurl=https%3A%2F%2Fwww.insider.com%2F&asc_source=browser&asc_campaign=commerce-pra&tag=biipgf_011819_best-multivitamins-for-women-20" style="color:aquamarine">Garden Of Life</a></li>
+                <li>Active Women:<a href="https://www.amazon.com/NUTRITION-Opti-Women-Multivitamin-Supplement-Capsules/dp/B002DYIZFI/ref=sr_1_5?crid=2SWZ3AFMPL9QV&keywords=Opti-Women%2BMultivitamin%2B%2860%2BCapsules%29&qid=1652725122&sprefix=opti-women%2Bmultivitamin%2B60%2Bcapsules%2B%2Caps%2C46&sr=8-5&th=1&asc_refurl=https%3A%2F%2Fwww.insider.com%2F&asc_source=browser&asc_campaign=commerce-pra&tag=biipgf_011819_best-multivitamins-for-women-20 " style="color:aquamarine">Optimum Nutrition Opti-Women </a></li>
+                <li>Best Budget: <a href="https://www.amazon.com/Nature-Made-Multi-Her-Softgels/dp/B00GH9I9RO/ref=sr_1_3?crid=9MMSL0EEVCKI&keywords=nature+made+multi+for+her&qid=1652725284&sprefix=nature+made+mu%2Caps%2C72&sr=8-3&asc_refurl=https%3A%2F%2Fwww.insider.com%2F&asc_source=browser&asc_campaign=commerce-pra&tag=biipgf_011819_best-multivitamins-for-women-20 " style="color:aquamarine">Nature Made Multi For Her</a></li>
+                <li>Best Vegan: <a href="https://www.amazon.com/Ritual-Vitamins-Function-Essenced-Capsules/dp/B09W35DHLH?ref_=ast_sto_dp&th=1&asc_refurl=https%3A%2F%2Fwww.insider.com%2F&asc_source=browser&asc_campaign=commerce-pra&tag=biipgf_011819_best-multivitamins-for-women-20 " style="color:aquamarine"> Ritual Essentials For Women</a></li>
+                <li>Women over 40: <a href="https://www.amazon.com/Garden-Life-Multivitamin-Women-Supplement/dp/B00K5NEMOM/ref=sr_1_5?crid=3KJGCUK5V2YKD&keywords=mykind%2BOrganics%2BWhole%2BFood%2BMultivitamin%2Bfor%2BWomen%2B40%2B%2B%2860%2BVegan%2BTablets%29&qid=1652725483&rdc=1&sprefix=mykind%2Borganics%2Bwhole%2Bfood%2Bmultivitamin%2Bfor%2Bwomen%2B40%2B%2B60%2Bvegan%2Btablets%2B%2Caps%2C57&sr=8-5&th=1&asc_refurl=https%3A%2F%2Fwww.insider.com%2F&asc_source=browser&asc_campaign=commerce-pra&tag=biipgf_011819_best-multivitamins-for-women-20 " style="color:aquamarine">Garden Of Life myKind Organic</a></li>
+            </ul>
+        </p>
+        <p>
+            <b>Recommended Multivitamins for Men:</b>
+            <ul>
+                <li>Tablet Multivitamin:<a href="https://www.amazon.com/Mens-Health-Formula-Multivitamin-Count/dp/B001F71XAI?tag=cnet-buy-button-20&ascsubtag=abce6ec98cdc41ca9ec37f26512f1d75%7C60fe6448-0266-49a3-ab15-3a54f9b44f23%7Cdtp" style="color:aquamarine">Garden Of Life One a Day Men's Multivitamin</a></li>
+                <li>Gummy Multivitamin:<a href="https://www.amazon.com/Perfect-Multivitamin-Supplement-Lycopene-Blackberry/dp/B01FKP3Q7S?tag=cnet-buy-button-20&ascsubtag=930f83ccc121417eb0c3d014c0b4504f%7C60fe6448-0266-49a3-ab15-3a54f9b44f23%7Cdtp " style="color:aquamarine">Olly Men's Multivitamin </a></li>
+                <li>Best Budget: <a href=" https://www.amazon.com/Nature-Made-Multi-Him-Tablets/dp/B005BD8A08?tag=cnet-buy-button-20&ascsubtag=e87beb39283546bfb2e945019e6f7f20%7C60fe6448-0266-49a3-ab15-3a54f9b44f23%7Cdtp" style="color:aquamarine">Nature Made</a></li>
+                <li>Best Vegan: <a href="https://www.futurekind.com/products/essential-vegan-multivitamin-b12-omega-3-d3?sscid=71k6_ly5hv&SSAID=2959767&utm_source=affiliate&utm_medium=SAS&utm_campaign=2959767" style="color:aquamarine"> Future Kind Essential Multivitamin For Vegans</a></li>
+                <li>Women over 50: <a href=" https://ritual.com/products/essential-multivitamin-for-men-over-50?utm_source=shareasale&utm_medium=affiliate&utm_campaign=ritual&utm_content=514792&sscid=71k6_ly642" style="color:aquamarine"> Ritual Essential For Men Multivitamin</a></li>
+            </ul>
+        </p>
+
+    </div>
+    <hr>
+
+    <div class="navbar">
+        <a href="Multivitamin.html"><b>Back To Top</b></a>
+    </div>
+
+
+
+
+</body>
+
+</html>

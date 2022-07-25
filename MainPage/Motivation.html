@@ -1,0 +1,139 @@
+<head>
+    <title>Motivation</title>
+    <link rel="stylesheet" type="text/css" href="Motivationstyle.css" media="screen" />
+</head>
+
+<body>
+
+    <h1 style="text-decoration:underline; text-decoration-thickness:3px ;">
+        Motivation
+    </h1>
+
+
+    <hr>
+
+    <div class="navbar">
+        <a href="theHealthKey.html"><b>Home</b></a>
+        <a href="Motivation.html"><b>Motivation</b></a>
+
+        <div class="Nutdropdown">
+            <button class="dropbtn" onclick="myFunction()"><b>Nutrition</b>
+                <i class="arrow down"></i>
+            </button>
+
+
+
+            <!-- Each of these require their own personal .html page -->
+            <div class="Nutrition" id="nutritionList">
+                <b>
+                    <a href="../MainPage/NutritionPages/AminoAcid.html"> AMINO ACID </a> <br>
+                    <a href="../MainPage/NutritionPages/BCAA.html"> BCAA </a> <br>
+                    <a href="../MainPage/NutritionPages/Creatine.html">CREATINE </a><br>
+                    <a href="../MainPage/NutritionPages/Multivitamin.html">MULTIVITAMIN </a> <br>
+                    <a href="../MainPage/NutritionPages/Preworkout.html"> PRE-WORKOUT </a><br>
+                    <a href="../MainPage/NutritionPages/Protein.html">PROTEIN </a><br>
+                </b>
+            </div>
+
+
+
+        </div>
+
+        <div class="Exdropdown">
+
+            <button class="dropbtn2" onclick="myFunction2()"><b>Exercises</b>
+                <i class="arrow down"></i>
+            </button>
+
+            <div class="Exercises" id="exercisesList">
+                <b>
+                    <a href="../MainPage/ExercisePages/Chest.html"> CHEST </a>
+                    <a href="../MainPage/ExercisePages/Back.html"> BACK </a>
+                    <a href="../MainPage/ExercisePages/Arms.html">ARMS </a>
+                    <a href="../MainPage/ExercisePages/Legs.html">LEGS </a>
+                    <a href="../MainPage/ExercisePages/Shoulders.html"> SHOULDERS </a>
+                    <a href="../MainPage/ExercisePages/Aerobic.html">AEROBIC </a>
+                </b>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("nutritionList").classList.toggle("show");
+        }
+
+        function myFunction2() {
+            document.getElementById("exercisesList").classList.toggle("show");
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function () {
+            if (!e.target.matches('.dropbtn')) {
+                var nutritionList = document.getElementById("nutritionList");
+                if (nutritionList.classList.contains('show')) {
+                    nutritionList.classList.remove('show');
+                }
+            }
+        }
+
+        window.onclick = function () {
+            if (!e.target.matches('.dropbtn2')) {
+                var nutritionList = document.getElementById("exercisesList");
+                if (nutritionList.classList.contains('show')) {
+                    nutritionList.classList.remove('show');
+                }
+            }
+        }
+    </script>
+
+    <div>
+        <p><b>Earl Nightingale</b>
+            <br><br>“Never give up on a dream just because of the time it will take to accomplish it. The time will pass
+            anyway.”
+        </p>
+    </div>
+    <br><br>
+    <div>
+        <p><b>Babe Ruth</b>
+            <br><br>“You just can’t beat the person who never gives up.”
+        </p>
+    </div>
+    <br><br>
+    <div>
+        <p><b>Sean Patrick Flanery</b>
+            <br><br>“Do something today that your future self will thank you for.”
+        </p>
+    </div>
+    <br><br>
+
+    <p style="text-align: center;">
+        <img src="../Resources/Motivation1.jpg" alt="Motivation1" width="300" height="320"></a>
+    </p>
+    <br><br>
+    <div>
+        <p><b>Jim Ryun</b>
+            <br><br>“Motivation is what gets you started. Habit is what keeps you going.”
+        </p>
+    </div>
+    <br><br>
+    <div>
+        <p><b>Andrew Murphy</b>
+            <br><br>“Your body can stand almost anything. It’s your mind that you have to convince.”
+        </p>
+    </div>
+    <br><br>
+    <div>
+        <p><b>Lou Holtz</b>
+            <br><br>“Ability is what you’re capable of doing. Motivation determines what you do. Attitude determines how
+            well you do it.”
+        </p>
+    </div>
+
+    <div class="navbar">
+        <a href="Motivation.html"><b>Back To Top</b></a>
+    </div>
+</body>

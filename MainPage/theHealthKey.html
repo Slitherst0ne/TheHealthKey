@@ -1,0 +1,110 @@
+<head>
+    <title>HealthKey</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+
+<body>
+
+    <h1 style="text-decoration:underline; text-decoration-thickness:3px ;">
+        The Health Key
+    </h1>
+    <p><b>
+            <h2> Your Health in your Hands. </h2>
+        </b></p>
+
+    <hr>
+
+    <div class="navbar">
+        <a href="theHealthKey.html"><b>Home</b></a>
+        <a href="Motivation.html"><b>Motivation</b></a>
+
+        <div class="Nutdropdown">
+            <button class="dropbtn" onclick="myFunction()"><b>Nutrition</b>
+                <i class="arrow down"></i>
+            </button>
+
+
+
+            <!-- Each of these require their own personal .html page -->
+            <div class="Nutrition" id="nutritionList">
+                <b>
+                <a href="../MainPage/NutritionPages/AminoAcid.html"> AMINO ACID </a> <br>
+                <a href="../MainPage/NutritionPages/BCAA.html"> BCAA </a> <br>
+                <a href="../MainPage/NutritionPages/Creatine.html">CREATINE </a><br>
+                <a href="../MainPage/NutritionPages/Multivitamin.html">MULTIVITAMIN </a> <br>
+                <a href="../MainPage/NutritionPages/Preworkout.html"> PRE-WORKOUT </a><br>
+                <a href="../MainPage/NutritionPages/Protein.html">PROTEIN </a><br>
+                </b>        
+            </div>
+
+
+
+        </div>
+
+        <div class="Exdropdown">
+
+            <button class="dropbtn2" onclick="myFunction2()"><b>Exercises</b>
+                <i class="arrow down"></i>
+            </button>
+
+            <div class="Exercises" id="exercisesList">
+                <b>
+                <a href="../MainPage/ExercisePages/Chest.html"> CHEST </a>
+                <a href="../MainPage/ExercisePages/Back.html"> BACK </a>
+                <a href="../MainPage/ExercisePages/Arms.html">ARMS </a>
+                <a href="../MainPage/ExercisePages/Legs.html">LEGS </a>
+                <a href="../MainPage/ExercisePages/Shoulders.html"> SHOULDERS </a>
+                <a href="../MainPage/ExercisePages/Aerobic.html">AEROBIC </a>
+                </b>
+            </div>
+        </div>
+    </div>
+
+     
+        <script>
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function myFunction() {
+                document.getElementById("nutritionList").classList.toggle("show");
+            }
+
+            function myFunction2() {
+                document.getElementById("exercisesList").classList.toggle("show");
+            }
+
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function () {
+                if (!e.target.matches('.dropbtn')) {
+                    var nutritionList = document.getElementById("nutritionList");
+                    if (nutritionList.classList.contains('show')) {
+                        nutritionList.classList.remove('show');
+                    }
+                }
+            }
+
+            window.onclick = function () {
+                if (!e.target.matches('.dropbtn2')) {
+                    var nutritionList = document.getElementById("exercisesList");
+                    if (nutritionList.classList.contains('show')) {
+                        nutritionList.classList.remove('show');
+                    }
+                }
+            }
+        </script>
+
+    <h2>
+        MISSION
+    </h2>
+    <p><b>
+        To add to the knowledge of all those interested in
+        leading better healthier lives.
+         <br><br>
+         This page serves to help expericed athletes refresh and new athletes<br><br> learn more of the health industry
+         in the <br><br> aspects of Nutrition and Exercise.
+         <br><br><br>
+        </p></b>
+       <b> <p  style="color: rgb(0, 165, 8); text-decoration:none; font-size: 40; text-shadow:4px 2px  rgb(255, 255, 255) ;" >
+        At some point in your life, You will be grateful you've learned the things you have.
+        </p>
+    </b>
+</body>

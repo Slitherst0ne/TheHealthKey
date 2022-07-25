@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Back</title>
+    <link rel="stylesheet" type="text/css" href="BackStyle.css" media="screen" />
+</head>
+
+<body>
+    <h1>Back</h1>
+    <div class="navbar">
+        <a href="../theHealthKey.html"><b>Home</b></a>
+        <a href="../Motivation.html"><b>Motivation</b></a>
+
+        <div class="Nutdropdown">
+            <button class="dropbtn" onclick="myFunction()"><b>Nutrition</b>
+                <i class="arrow down"></i>
+            </button>
+
+
+
+            <!-- Each of these require their own personal .html page -->
+            <div class="Nutrition" id="nutritionList">
+                <b>
+                    <a href="../NutritionPages/AminoAcid.html"> AMINO ACID </a> <br>
+                    <a href="../NutritionPages/BCAA.html"> BCAA </a> <br>
+                    <a href="../NutritionPages/Creatine.html">CREATINE </a><br>
+                    <a href="../NutritionPages/Multivitamin.html">MULTIVITAMIN </a> <br>
+                    <a href="../NutritionPages/PreWorkout.html"> PRE-WORKOUT </a><br>
+                    <a href="../NutritionPages/Protein.html">PROTEIN </a><br>
+                </b>
+            </div>
+
+
+
+        </div>
+
+        <div class="Exdropdown">
+
+            <button class="dropbtn2" onclick="myFunction2()"><b>Exercises</b>
+                <i class="arrow down"></i>
+            </button>
+
+            <div class="Exercises" id="exercisesList">
+                <b>
+                    <a href="Chest.html"> CHEST </a>
+                    <a href="Back.html"> BACK </a>
+                    <a href="Arms.html">ARMS </a>
+                    <a href="Legs.html">LEGS </a>
+                    <a href="Shoulders.html"> SHOULDERS </a>
+                    <a href="Aerobic.html">AEROBIC </a>
+                </b>
+            </div>
+        </div>
+    </div>
+    <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("nutritionList").classList.toggle("show");
+        }
+
+        function myFunction2() {
+            document.getElementById("exercisesList").classList.toggle("show");
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function () {
+            if (!e.target.matches('.dropbtn')) {
+                var nutritionList = document.getElementById("nutritionList");
+                if (nutritionList.classList.contains('show')) {
+                    nutritionList.classList.remove('show');
+                }
+            }
+        }
+
+        window.onclick = function () {
+            if (!e.target.matches('.dropbtn2')) {
+                var nutritionList = document.getElementById("exercisesList");
+                if (nutritionList.classList.contains('show')) {
+                    nutritionList.classList.remove('show');
+                }
+            }
+        }
+    </script>
+
+
+
+    <h2>At Home Workouts<sup><a href="https://www.scoopwhoop.com/back-exercises-without-equipment/  "
+                style="color:rgb(107, 0, 156); font-size: 12">*
+            </a></sup></h2>
+
+    <ol>
+        <div>
+            <b>
+                <li style="text-align:center">Superman</li>
+            </b>
+            <p style="text-align: center;">
+                <a href=" https://www.youtube.com/watch?v=cc6UVRS7PW4"><img src="../../Resources/superman.jpg "
+                        alt="SupermanExercise" width="650" height="320"></a>
+            </p>
+            <p style="text-align:left; font-size: small; color:red"> Click on Image for video</p>
+            <p>
+                Lie on your stomach and slowly, lift both your arms and legs simultaneously, as much as possible. Hold
+                this position for as long as you comfortably can and keep looking straight ahead.
+            </p>
+        </div>
+        <hr>
+        <div>
+            <b>
+                <li style="text-align:center">Aquaman</li>
+            </b>
+            <p style="text-align: center;">
+                <a href="https://www.youtube.com/watch?v=MmEr4oFH2SQ"><img src="../../Resources/Aquaman.jpg "
+                        alt="AquamanExercise" width="650" height="320"></a>
+            </p>
+            <p>
+                For this variation of Superman, first lift your right arm and the left leg as much as you can. And when
+                you bring the two down, lift your left arm and your right leg. Do both these movements as fast as
+                possible.
+            </p>
+        </div>
+        <hr>
+        <div>
+            <b>
+                <li style="text-align:center"> Bhujangasana or the Cobra Pose</li>
+            </b>
+            <p style="text-align: center;">
+                <a href="https://www.youtube.com/watch?v=gWpUTLghv_0"><img src="../../Resources/Cobra.jpg "
+                        alt="CobraExercise" width="650" height="320"></a>
+            </p>
+            <p>
+                Lying in the prone position, place your palms at shoulder level and tightening your stomach, lift you
+                upper body in a stretch with your eyes facing upwards. Make sure to keep your chest lifted and avoid
+                arching your back.
+            </p>
+        </div>
+        <hr>
+        <div>
+            <b>
+                <li style="text-align:center"> Squats</li>
+            </b>
+            <p style="text-align: center;">
+                <a href="https://www.youtube.com/watch?v=YaXPRqUwItQ"><img src="../../Resources/athomeSquat.jpg "
+                        alt="AtHomeSquatExercise" width="650" height="320"></a>
+            </p>
+            <p>
+                For those who didn't know, since squats isometrically use both the lower and upper back, they're a great
+                workout to strengthen your spine too. Moving the hips back, bend the knees and hips to lower the torso
+                and after pausing for a couple of seconds, return to the upright position.
+            </p>
+        </div>
+        <hr>
+        <div>
+            <b>
+                <li style="text-align:center"> Setu Bandhasana or the Bridge Pose</li>
+            </b>
+            <p style="text-align: center;">
+                <a href="https://www.youtube.com/watch?v=6HYNo1YQsUk"><img src="../../Resources/BridgePose.jpg"
+                        alt="BridgeposeExercise" width="650" height="320"></a>
+            </p>
+            <p>
+                Lying on the floor, bend your knees and place your feet on the floor. Next, sucking in your stomach,
+                lift your pelvis and buttocks as high as possible as you try and grab the back of your feet with your
+                hands.
+            </p>
+        </div>
+        <hr>
+        <div>
+            <b>
+                <li style="text-align:center"> Cat Stretch</li>
+            </b>
+            <p style="text-align: center;">
+                <a href="https://www.youtube.com/watch?v=kqnua4rHVVA"><img src="../../Resources/CatPose.jpg"
+                        alt="CatposeExercise" width="650" height="320"></a>
+            </p>
+            <p>
+                Come down on all fours and take a deep breath. As you exhale, push your belly towards your spine,
+                curving your back to the ceiling. Hold this position for a few seconds and then, slowly bring your back
+                down to normal.
+            </p>
+        </div>
+        <hr>
+        <div>
+            <b>
+                <li style="text-align:center"> Kneeling Extension</li>
+            </b>
+            <p style="text-align: center;">
+                <a href="https://www.youtube.com/watch?v=OFpX2_G6opg"><img src="../../Resources/KneelingExtension.jpg"
+                        alt="KneelingExtensionExercise" width="650" height="320"></a>
+            </p>
+            <p>
+                Get your body on all fours and left your right leg and left arm to shoulder level. Hold this position
+                for a few seconds while looking straight ahead. Then, bring the leg and arm down and lift the left leg
+                and right arm next.
+            </p>
+        </div>
+        <hr>
+        <div>
+            <b>
+                <li style="text-align:center"> Plank</li>
+            </b>
+            <p style="text-align: center;">
+                <a href="https://www.youtube.com/watch?v=BQu26ABuVS0"><img src="../../Resources/Plank.jpg"
+                        alt="PlankExercise" width="650" height="320"></a>
+            </p>
+            <p>
+                Since it requires you to tighten your core, the plank is a great way to strengthen your back, especially
+                the lower part of it. Depending on your fitness level, either do the forearm version or the classic one
+                and make sure to look straight ahead for extra effect.
+            </p>
+        </div>
+        <hr>
+        <div>
+            <b>
+                <li style="text-align:center"> Dolphin Kicks</li>
+            </b>
+            <p style="text-align: center;">
+                <a href="https://www.youtube.com/watch?v=ImSEc6XnleA"><img src="../../Resources/DolphinKick.jpg"
+                        alt="DolphinKick" width="650" height="320"></a>
+            </p>
+            <p>
+                Place your torso on a table or bench as you lie on your stomach and slowly, lift both your legs together
+                in the air as high as you can. If lifting both the legs together is particularly tough, do it one leg at
+                a time.
+            </p>
+        </div>
+        <hr>
+        <div>
+            <b>
+                <li style="text-align:center">Adho Mukha Svanasana or the Downward Dog Pose</li>
+            </b>
+            <p style="text-align: center;">
+                <a href="https://www.youtube.com/watch?v=05Mqw_ss2qg"><img src="../../Resources/DownwardDog.jpg"
+                        alt="DownwardDog" width="650" height="320"></a>
+            </p>
+            <p>
+                This is the best stretch for the lower back ever! Begin in a kneeling position with your hands directly
+                under the shoulders and fingers spread wide. Tuck your toes and engage your abs as you push your body up
+                so only your hands and feet are on the ground. Press through your hands, moving your chest gently
+                towards your thighs and your heels towards the floor.
+            </p>
+        </div>
+        <hr>
+        <hr>
+    </ol>
+
+    <h2>Equipment Workouts<sup><a
+                href="https://www.bodybuilding.com/content/the-5-best-back-machines-for-maximum-growth.html"
+                style="color:rgb(107, 0, 156); font-size: 12">*
+            </a></sup></h2>
+
+    <ol>
+        <div>
+            <b>
+                <li style="text-align:center">Assisted Pull-Up Machine</li>
+            </b>
+            <p style="text-align: center;">
+                <a href=" https://www.youtube.com/watch?v=QI3we4S8JJ0"><img
+                        src="../../Resources/assistedPullup.jpg" alt="assistedPullup" width="650" height="320"></a>
+            </p>
+            <p>
+                The assisted pull-up machine is literally designed to assist you in pulling yourself up, allowing you to
+                focus on mastering form and completing reps. As you get stronger, progressively decrease the amount of
+                assistance. Eventually you can start knocking out full pull-ups on your own.<br>
+
+                <br><b>TIP:</b>Focus on the negative for building strength, using barely enough assistance to help you
+                lift
+                yourself back up for each repetition. Stay in the 8-10 rep range for 3-4 sets to build strength and mass
+                while you work on form.
+            </p>
+        </div>
+        <hr>
+        <div>
+            <b>
+                <li style="text-align:center">Pull-Over Machine</li>
+            </b>
+            <p style="text-align: center;">
+                <a href=" https://www.youtube.com/watch?v=ZOwR5Ar81rg"><img
+                        src="../../Resources/pulloverMachine.jpg" alt="Pull-Over" width="650" height="320"></a>
+            </p>
+            <p>
+                This machine helps you improve flexibility, get a deep stretch, and squeeze the lats hard on every rep.
+
+                <br><br><b>TIP:</b> Since this is an isolation exercise, use it as a finisher on your big pull-up and
+                deadlift
+                days, aiming for 4 sets of 8-12 reps to squeeze as much blood as possible into those big back muscles.
+            </p>
+        </div>
+        <hr>
+        <div>
+            <b>
+                <li style="text-align:center">T-Bar Row</li>
+            </b>
+            <p style="text-align: center;">
+                <a href="https://www.youtube.com/watch?v=IDdcCRahDQw "><img
+                        src="../../Resources/TBarRow.jpg" alt="T-Bar" width="650" height="320"></a>
+            </p>
+            <p>
+                Many trainers forget the T-bar row is technically a machine movement. There is a pivot point preventing
+                you from having total control of the weight, so it is not a "free" weight. Whether you shove the end of
+                a bar in a corner or use a landmine or a station, the T-bar row is an excellent exercise to go heavy on.
+
+                <br><br>If you use the free-standing version without the pad to lean on, your lower back benefits as
+                well as your lats. Using a horizontal grip also targets the rhomboids, teres major, mid traps, and rear
+                delts.
+
+                <br><br><b>TIP:</b> This is a chance to go super heavy on a row, so don't be afraid to pack on the
+                weight and drop down to a 5x5 set-and-rep scheme to add massive weight and volume to your workout.
+
+            </p>
+        </div>
+        <hr>
+        <div>
+            <b>
+                <li style="text-align:center">Low Seated Row</li>
+            </b>
+            <p style="text-align: center;">
+                <a href=" https://www.youtube.com/watch?v=GZbfZ033f74 "><img
+                        src="../../Resources/SeatedLowRow.jpg" alt="Low Seated Row" width="650" height="320"></a>
+            </p>
+            <p>
+                The low version of the row machine allows you to use different attachments to serve different
+                purposes. The rope can help you pull in tighter and get a better contraction, the wide handle helps
+                develop the upper back, and the close-grip handle helps you focus on the lats.
+
+                <br><br>The low seated row is a versatile option for targeting any back-training weakness, so let it
+                serve you in developing a well-balanced upper body.
+
+                <br><br><b>TIP:</b> Maintain your posture! It's easy to try to throw momentum into the seated row, but a
+                stable spine guarantees you isolate those back details. Work in that same 8-10 rep range, but keep that
+                extra squeeze on the contraction and slow negative to maximize all this machine has to offer.
+            </p>
+        </div>
+        <hr>
+        <div>
+            <b>
+                <li style="text-align:center">Back Extension Machine</li>
+            </b>
+            <p style="text-align: center;">
+                <a href="https://www.youtube.com/watch?v=ph3pddpKzzw "><img
+                        src="../../Resources/BackExtensionsMachine.jpg" alt="Back Extension Machine" width="650" height="320"></a>
+            </p>
+            <p>
+                If you want to work on that Christmas tree in the lower back, this is a great choice for isolating that
+                area. If you suffer from lower back issues, this exercise can also help you strengthen that area while
+                keeping you safe in a fixed line of movement.
+
+                <br><br>You may not get the big muscle pump that you get from working your other major back muscles,
+                but the lower back is not something to be ignored. Developing this area can help you reach your physique
+                and performance goals.
+
+                <br><br><b>TIP:</b> Add lower back on your leg or chest day to help round out your core strength with
+                antagonist training, building up that all-important lumbar region when your other big muscles are
+                already gassed.
+            </p>
+        </div>
+        <div>
+            <b>
+                <li style="text-align:center">DeadLift<sup><a href="https://barbend.com/best-back-exercises/"
+                            style="color:rgb(107, 0, 156); font-size: 12">*
+                        </a></sup></li>
+            </b>
+            <p style="text-align: center;">
+                <a href="https://www.youtube.com/watch?v=r4MzxtBKyNE"><img
+                        src="../../Resources/DeadLift.jpg" alt="DeadLift" width="650" height="320"></a>
+            </p>
+            <p>
+                Stand in front of a loaded barbell with your feet shoulder-width apart, hips back, and back flat. The
+                knees should be bent slightly to allow you to grip the bar tightly slightly wider than shoulder-width.
+                Keeping your back flat and chest up, tighten the back muscles, and straighten the arms as you load the
+                pull. With everything locked, aggressively push your legs into the floor as you simultaneously pull your
+                chest and shoulders upwards, lifting the bar to the hip.
+            </p>
+        </div>
+        <hr>
+        <div>
+            <b>
+                <li style="text-align:center">Barbell Row<sup><a href="https://barbend.com/best-back-exercises/"
+                            style="color:rgb(107, 0, 156); font-size: 12">*
+                        </a></sup></li>
+            </b>
+            <p style="text-align: center;">
+                <a href="https://www.youtube.com/watch?v=kBWAon7ItDw"><img
+                        src="../../Resources/BarbellRow.jpg" alt="Barbell Row" width="650" height="320"></a>
+            </p>
+            <p>
+                Set up as you would for your deadlift by standing feet shoulder-width apart in front of a loaded
+                barbell. Hinge at the hips until your torso is about parallel to the floor. Grab the barbell with a grip
+                that’s a bit wider than your typical deadlift grip. Lean back, so your weight is on your heels, and row
+                the barbell, leading the pull with your elbow until it touches around your belly button.
+            </p>
+        </div>
+        <hr>
+        <div>
+            <b>
+                <li style="text-align:center">Chest Supported Row<sup><a href="https://barbend.com/best-back-exercises/"
+                            style="color:rgb(107, 0, 156); font-size: 12">*
+                        </a></sup></li>
+            </b>
+            <p style="text-align: center;">
+                <a href="https://www.youtube.com/watch?v=H75im9fAUMc"><img
+                        src="../../Resources/ChestSupportedRow.jpg" alt="ChestSupportedRow" width="650" height="320"></a>
+            </p>
+            <p>
+                Set a workout bench to a 45-degree incline and lay face down on it so your chest and stomach are
+                supported. Grab a dumbbell in each hand and then row them to your sides until your elbows pass your
+                torso. Slowly lower the weight under control.
+
+            </p>
+        </div>
+        <hr>
+        <div>
+            <b>
+                <li style="text-align:center">Single-Arm Row<sup><a href="https://barbend.com/best-back-exercises/"
+                            style="color:rgb(107, 0, 156); font-size: 12">*
+                        </a></sup></li>
+            </b>
+            <p style="text-align: center;">
+                <a href="https://www.youtube.com/watch?v=roCP6wCXPqo"><img
+                        src="../../Resources/DumbbellRow.jpg" alt="DumbbellRow" width="650" height="320"></a>
+            </p>
+            <p>
+                Stand next to a bench so that it’s parallel to you. Place the same-side hand and knee on it, and firmly
+                plant your other foot onto the floor. Reach down with your free hand and grab a dumbbell. Keep your back
+                flat and your head in a neutral position. Row the dumbbell to your side until your elbow passes your
+                torso. Complete all of your reps on one side and then switch.
+
+
+
+            </p>
+        </div>
+        <hr>
+        <hr>
+        <div>
+            <b>
+                <li style="text-align:center">Inverted Row<sup><a href="https://barbend.com/best-back-exercises/"
+                            style="color:rgb(107, 0, 156); font-size: 12">*
+                        </a></sup></li>
+            </b>
+            <p style="text-align: center;">
+                <a href="https://www.youtube.com/watch?v=GdyhjXlxE-U"><img
+                        src="../../Resources/InvertedRow.jpg" alt="InvertedRow" width="650" height="320"></a>
+            </p>
+            <p>
+                Place a bar in a rack so that it is supported and stable. When you lay down underneath it, your hands
+                should just reach the bar. Adjust the height as needed. Grasp the bar firmly and set the body in a rigid
+                plank position. Pull your chest to the bar, making sure to keep the elbows from flaring out.
+            </p>
+        </div>
+    </ol>
+
+
+
+
+
+
+
+    <hr>
+    <div class="navbar">
+        <a href="Back.html"><b>Back To Top</b></a>
+    </div>
+</body>
+
+</html>

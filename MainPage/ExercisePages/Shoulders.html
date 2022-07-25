@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoulders</title>
+    <link rel="stylesheet" type="text/css" href="ShouldersStyle.css" media="screen" />
+</head>
+
+<body>
+    <h1>Shoulders</h1>
+    <div class="navbar">
+        <a href="../theHealthKey.html"><b>Home</b></a>
+        <a href="../Motivation.html"><b>Motivation</b></a>
+
+        <div class="Nutdropdown">
+            <button class="dropbtn" onclick="myFunction()"><b>Nutrition</b>
+                <i class="arrow down"></i>
+            </button>
+
+
+
+            <!-- Each of these require their own personal .html page -->
+            <div class="Nutrition" id="nutritionList">
+                <b>
+                    <a href="../NutritionPages/AminoAcid.html"> AMINO ACID </a> <br>
+                    <a href="../NutritionPages/BCAA.html"> BCAA </a> <br>
+                    <a href="../NutritionPages/Creatine.html">CREATINE </a><br>
+                    <a href="../NutritionPages/Multivitamin.html">MULTIVITAMIN </a> <br>
+                    <a href="../NutritionPages/PreWorkout.html"> PRE-WORKOUT </a><br>
+                    <a href="../NutritionPages/Protein.html">PROTEIN </a><br>
+                </b>
+            </div>
+
+
+
+        </div>
+
+        <div class="Exdropdown">
+
+            <button class="dropbtn2" onclick="myFunction2()"><b>Exercises</b>
+                <i class="arrow down"></i>
+            </button>
+
+            <div class="Exercises" id="exercisesList">
+                <b>
+                    <a href="Chest.html"> CHEST </a>
+                    <a href="Back.html"> BACK </a>
+                    <a href="Arms.html">ARMS </a>
+                    <a href="Legs.html">LEGS </a>
+                    <a href="Shoulders.html"> SHOULDERS </a>
+                    <a href="Aerobic.html">AEROBIC </a>
+                </b>
+            </div>
+        </div>
+    </div>
+    <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("nutritionList").classList.toggle("show");
+        }
+
+        function myFunction2() {
+            document.getElementById("exercisesList").classList.toggle("show");
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function () {
+            if (!e.target.matches('.dropbtn')) {
+                var nutritionList = document.getElementById("nutritionList");
+                if (nutritionList.classList.contains('show')) {
+                    nutritionList.classList.remove('show');
+                }
+            }
+        }
+
+        window.onclick = function () {
+            if (!e.target.matches('.dropbtn2')) {
+                var nutritionList = document.getElementById("exercisesList");
+                if (nutritionList.classList.contains('show')) {
+                    nutritionList.classList.remove('show');
+                }
+            }
+        }
+    </script>
+
+
+
+    <h2>Bodyweight Shoulder Workouts At Home<sup><a
+                href="https://www.runtastic.com/blog/en/best-bodyweight-shoulder-exercises/"
+                style="color:rgb(107, 0, 156); font-size: 12">*
+            </a></sup></h2>
+    <ol>
+        <div>
+            <b>
+                <li style="text-align:center">
+                    PLANK-TO-DOWN DOG
+                </li>
+            </b>
+            <p style="text-align: center;">
+                <a href="https://www.youtube.com/watch?v=5FcS9IOWpSo"><img src="../../Resources/PlanktoDownDog.jpg"
+                        alt="PlankToDDog" width="650" height="320"></a>
+            </p>
+            <p style="text-align:left; font-size: small; color:red"> Click on Image for video</p>
+
+            <p>
+                This is a great move for shoulder flexibility — especially the rotator cuff. You don’t need to perform
+                this exercise quickly. Take your time. This is actually a good bodyweight warm-up exercise before you
+                start your shoulder training.
+            </p>
+        </div>
+
+        <hr>
+        <div>
+            <b>
+                <li style="text-align:center">
+                    INCLINED WALL PUSH-UPS
+                </li>
+            </b>
+            <p style="text-align: center;">
+                <a href="https://www.youtube.com/watch?v=5NPvv40gd3Q"><img src="../../Resources/InclinedWallPush.jpg"
+                        alt="InclinedWallPushUps" width="650" height="320"></a>
+            </p>
+
+            <p>
+                Having your upper body higher than your lower body in this movement will recruit more of the anterior
+                deltoid. Choose a surface lower than the wall to challenge your shoulder more, like a table or a low
+                stair. Make sure that your core is engaged and your hips, shoulders, and feet are in one line (as in a
+                regular push-up). You want the edge of whatever surface you’re doing this exercise on to come right
+                underneath your chest.
+            </p>
+        </div>
+        <hr>
+        <div>
+            <b>
+                <li style="text-align:center">
+                    PIKE PUSH-UPS
+                </li>
+            </b>
+            <p style="text-align: center;">
+                <a href="https://www.youtube.com/watch?v=HT4G-uWcVcc"><img src="../../Resources/PikePushUps.jpg"
+                        alt="pike push up" width="650" height="320"></a>
+            </p>
+            <p>
+                This exercise is a step on your way to mastering a handstand push-up and is great for the anterior as
+                well as the medial deltoids. Make sure that you look at your legs (not your hands) while keeping your
+                spine neutral and the crown of your head pointing towards the ground.
+            </p>
+        </div>
+        <hr>
+        <div>
+            <b>
+                <li style="text-align:center">
+                    PRONE X
+                </li>
+            </b>
+            <p style="text-align: center;">
+                <a href="https://www.youtube.com/watch?v=C_j7eHPkvxg"><img src="../../Resources/ProneX.jpg"
+                        alt="Prone X" width="650" height="320"></a>
+            </p>
+
+            <p>
+                This exercise is good for the posterior (rear) delts as well as the back muscles. Be sure that your core
+                and glutes are engaged throughout the movement. Focus on using your shoulder blades to pull the arms out
+                to the side. And, like the Plank-To-Down Dog, this is not a race – slower and more controlled is better
+                and safer!
+            </p>
+        </div>
+        <hr>
+        <div>
+            <b>
+                <li style="text-align:center">
+                    UP DOWNS
+                </li>
+            </b>
+            <p style="text-align: center;">
+                <a href="https://www.youtube.com/watch?v=e-APSd8MH7A&t=3s"><img src="../../Resources/UpDowns.jpg"
+                        alt="UpDowns" width="650" height="320"></a>
+            </p>
+
+            <p>
+                Are you looking for a Plank variation that will challenge your shoulders? Try Up Downs to really feel
+                your anterior (front) deltoid work.
+
+                <br><br>Place your hands directly under your shoulders. Engage the core to keep the hips square to the
+                ground and avoid rotating the body to the sides. Pressing asymmetrically requires a lot of stability and
+                is not something you usually do with other Plank and Push Up variations. So don’t be surprised if you
+                feel a bit sore!
+            </p>
+        </div>
+        <hr>
+    </ol>
+    <h2>Shoulder Workouts With Equipment<sup><a
+                href="https://www.mensjournal.com/health-fitness/best-shoulder-exercises-of-all-time/2-standing-dumbbell-fly/"
+                style="color:rgb(107, 0, 156); font-size: 12">*
+            </a></sup></h2>
+    <ol>
+        <div>
+            <b>
+                <li style="text-align:center">
+                    Renegade Row
+                </li>
+            </b>
+            <p style="text-align: center;">
+                <a href="https://www.youtube.com/watch?v=wTqlJ0aoJlM"><img src="../../Resources/RenegadeRow.jpg"
+                        alt="Renegade Row" width="650" height="320"></a>
+            </p>
+
+            <p>
+                Start in the top position of a pushup with your hands on dumbbells shoulder-width apart.
+
+                <br><br>Row one dumbbell toward the side of your body while balancing on the opposite hand and feet
+                <br><br>Pause for one second at the top and return the weight slowly to the start position.
+                <br><br>Repeat on the other side.
+
+
+            </p>
+        </div>
+        <hr>
+        <div>
+            <b>
+                <li style="text-align:center">
+                    Standing Dumbbell Fly
+                </li>
+            </b>
+            <p style="text-align: center;">
+                <a href="https://www.youtube.com/watch?v=cMsV1gP2MEc"><img src="../../Resources/StandingDumbbellFly.jpg"
+                        alt="Standing Dumbbell Fly" width="650" height="320"></a>
+            </p>
+
+            <p>
+                Hold a dumbbell in each hand by your sides.
+
+                <br><br>Without shrugging, use your upper body to swing the weights up a few inches.
+
+                <br><br>Your arms and torso will form an upside down V shape.
+
+                <br><br>Think of it as a lateral raise with momentum but without full range of motion.
+
+            </p>
+        </div>
+        <hr>
+        <div>
+            <b>
+                <li style="text-align:center">
+                    Face Pull
+                </li>
+            </b>
+            <p style="text-align: center;">
+                <a href="https://www.youtube.com/watch?v=rep-qVOkqgk"><img src="../../Resources/FacePull.jpg"
+                        alt="FacePull" width="650" height="320"></a>
+            </p>
+
+            <p>
+                Attach a rope handle to the top pulley of a cable station.
+
+                <br><br>Grasp an end in each hand with palms facing each other. Step back to place tension on the cable.
+
+                <br><br>Pull the handles to your forehead so your palms face your ears and your upper back is fully
+                contracted.
+
+            </p>
+        </div>
+        <hr>
+        <div>
+            <b>
+                <li style="text-align:center">
+                    Seated Dumbbell Clean
+                </li>
+            </b>
+            <p style="text-align: center;">
+                <a href="https://www.youtube.com/watch?v=5zAVVnvKNMo"><img src="../../Resources/SeatedDbClean.jpg"
+                        alt="Seated Dumbbell Clean" width="650" height="320"></a>
+            </p>
+
+            <p>
+                Hold a dumbbell in each hand and sit on the edge of a bench.
+
+                <br><br>Keeping your lower back flat, lean forward.
+
+                <br><br>Explosively straighten your body and shrug the weights so your arms rise.
+
+                <br><br>Allow the momentum to flip your wrists so you catch the weights at shoulder level.
+            </p>
+        </div>
+        <hr>
+        <div>
+            <b>
+                <li style="text-align:center">
+                    High Pull
+                </li>
+            </b>
+            <p style="text-align: center;">
+                <a href="https://www.youtube.com/watch?v=A7HVlJgvsq4"><img src="../../Resources/HighPull.jpg"
+                        alt="HighPull" width="650" height="320"></a>
+            </p>
+
+            <p>
+                Grasp the bar with hands about double shoulder width and hold it in front of your thighs.
+
+                <br><br>Bend your knees and hips so the bar hangs just above your knees.
+
+                <br><br>Explosively extend your hips as if jumping and pull the bar up to shoulder level with elbows
+                wide apart, as in an upright row.
+
+            </p>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </ol>
+
+    <div class="navbar">
+        <a href="Shoulders.html"><b>Back To Top</b></a>
+    </div>
+
+
+</body>
+
+</html>

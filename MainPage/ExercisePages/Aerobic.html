@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aerobic</title>
+    <link rel="stylesheet" type="text/css" href="AerobicStyles.css" media="screen" />
+</head>
+
+<body>
+    <h1>Aerobic</h1>
+    <div class="navbar">
+        <a href="../theHealthKey.html"><b>Home</b></a>
+        <a href="../Motivation.html"><b>Motivation</b></a>
+
+        <div class="Nutdropdown">
+            <button class="dropbtn" onclick="myFunction()"><b>Nutrition</b>
+                <i class="arrow down"></i>
+            </button>
+
+
+
+            <!-- Each of these require their own personal .html page -->
+            <div class="Nutrition" id="nutritionList">
+                <b>
+                    <a href="../NutritionPages/AminoAcid.html"> AMINO ACID </a> <br>
+                    <a href="../NutritionPages/BCAA.html"> BCAA </a> <br>
+                    <a href="../NutritionPages/Creatine.html">CREATINE </a><br>
+                    <a href="../NutritionPages/Multivitamin.html">MULTIVITAMIN </a> <br>
+                    <a href="../NutritionPages/PreWorkout.html"> PRE-WORKOUT </a><br>
+                    <a href="../NutritionPages/Protein.html">PROTEIN </a><br>
+                </b>
+            </div>
+
+
+
+        </div>
+
+        <div class="Exdropdown">
+
+            <button class="dropbtn2" onclick="myFunction2()"><b>Exercises</b>
+                <i class="arrow down"></i>
+            </button>
+
+            <div class="Exercises" id="exercisesList">
+                <b>
+                    <a href="Chest.html"> CHEST </a>
+                    <a href="Back.html"> BACK </a>
+                    <a href="Arms.html">ARMS </a>
+                    <a href="Legs.html">LEGS </a>
+                    <a href="Shoulders.html"> SHOULDERS </a>
+                    <a href="Aerobic.html">AEROBIC </a>
+                </b>
+            </div>
+        </div>
+    </div>
+    <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("nutritionList").classList.toggle("show");
+        }
+
+        function myFunction2() {
+            document.getElementById("exercisesList").classList.toggle("show");
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function () {
+            if (!e.target.matches('.dropbtn')) {
+                var nutritionList = document.getElementById("nutritionList");
+                if (nutritionList.classList.contains('show')) {
+                    nutritionList.classList.remove('show');
+                }
+            }
+        }
+
+        window.onclick = function () {
+            if (!e.target.matches('.dropbtn2')) {
+                var nutritionList = document.getElementById("exercisesList");
+                if (nutritionList.classList.contains('show')) {
+                    nutritionList.classList.remove('show');
+                }
+            }
+        }
+    </script>
+
+
+    <h2>Aerobic Exercises<sup><a
+                href="https://www.healthline.com/health/fitness-exercise/aerobic-exercise-examples#at-home-exercises"
+                style="color:rgb(107, 0, 156); font-size: 12">*
+            </a></sup></h2>
+    <ol>
+        <div>
+            <b>
+                <li style="text-align:center">
+                    Jump rope
+                </li>
+            </b>
+            <p style="text-align: center;">
+                <a href="https://www.youtube.com/watch?v=u3zgHI8QnqE"><img src="../../Resources/JumpRope.jpg"
+                        alt="JumpRope" width="650" height="320"></a>
+            </p>
+            <p style="text-align:left; font-size: small; color:red"> Click on Image for video</p>
+
+            <p>
+                If you’re a beginner:
+                <br><br>Start by jogging forward as you swing the jump rope over your head and under your feet. Do this
+                move for
+                15 seconds.
+
+                <br><br>Next, reverse your direction and jog backward as you continue to swing the jump rope. Do this
+                move for 15 seconds.
+                <br><br>Finish your set by doing a hopscotch jump for 15 seconds. To do this move, jump rope in place,
+                and as you jump, alternate between jumping your feet out to the sides and then back to the center,
+                similar to how you’d move them while doing jumping jacks. Do this move for 15 seconds.
+                <br><br>If you’re an intermediate exerciser, you can perform the moves for 30 seconds and rest for 30
+                seconds between sets. The advanced circuit should be performed for 60 seconds at a time, followed by 60
+                seconds of rest.
+
+            </p>
+        </div>
+        <hr>
+        <div>
+            <b>
+                <li style="text-align:center">
+                    Swimming
+                </li>
+            </b>
+            <p style="text-align: center;">
+                <a href="https://www.youtube.com/watch?v=pFN2n7CRqhw"><img src="../../Resources/Swimming.jpg"
+                        alt="Swimming" width="650" height="320"></a>
+            </p>
+
+            <p>
+                10 to 30 minutes, 2 to 5 times a week. Add 5 minutes to your swim time each week to increase your
+                duration.
+                <br><br>If your gym has a pool, try swimming as aerobic exercise. It’s a low impact workout, so it’s a
+                good choice if you’re prone to injury. You’re also increasing your heart rate, toning your muscles, and
+                building strength and endurance — all without adding additional strain to your body.
+                <br><br>You can start by swimming laps using one stroke, such as freestyle. As you swim more, add
+                additional strokes. For example, you could do 1 to 4 laps of freestyle followed by 1 to 4 laps of
+                breaststroke or backstroke.
+                <br><br>If you get tired, rest on the side of the pool between laps. Always follow the safety
+                instructions and guidelines of the pool where you swim.
+            </p>
+        </div>
+        <hr>
+        <div>
+            <b>
+                <li style="text-align:center">
+                    Running or jogging
+                </li>
+            </b>
+            <p style="text-align: center;">
+                <a href="https://www.youtube.com/watch?v=oSQrlzzuTa4"><img src="../../Resources/BenefitsOFRunning.jpg"
+                        alt="JumpRope" width="650" height="320"></a>
+            </p>
+
+            <p>
+                If you’re a beginner, run for 20 to 30 minutes twice a week. Your pace should be conversational during
+                the run. You can alternate between 5 minutes of running and 1 minute of walking to start. To stay
+                injury-free, always stretch after your run.
+
+            </p>
+        </div>
+        <hr>
+        <div>
+            <b>
+                <li style="text-align:center">
+                    Stationary bike
+                </li>
+            </b>
+            <p style="text-align: center;">
+                <a href="https://www.youtube.com/watch?v=hpeqiImyURo"><img src="../../Resources/StationaryBike.jpg"
+                        alt="StationaryBike" width="650" height="320"></a>
+            </p>
+
+            <p>
+                Riding a stationary bike is another option for low impact cardio. Stationary bikes are a good
+                cardiovascular workout, help you develop leg strength, and are easy to use. Many gyms and workout
+                studios offer cycling classes, which use stationary bikes. But you can still benefit from a stationary
+                bike workout without taking a class.
+                <br><br>After stretching and warming up by cycling at an easy rhythm for 5 to 10 minutes, increase your
+                pace to 75 to 80 rotations per minute (RPM) and aim for 20 to 30 minutes of steady cycling. Cool down
+                for 5 minutes. Stretch to finish.
+                <br><br>Keep enough resistance on the bike to feel like you’re pushing the pedals instead of feeling
+                like the pedals are pushing your feet. Increase the resistance for a more challenging workout.
+            </p>
+        </div>
+        <hr>
+        <div>
+            <b>
+                <li style="text-align:center">
+                    Aerobic strength circuit
+                </li>
+            </b>
+            <p style="text-align: center;">
+                <a href="https://www.youtube.com/watch?v=EvqQ8833PBA"><img src="../../Resources/AerobicStrength.jpg"
+                        alt="AerobicStrengthCircuit" width="650" height="320"></a>
+            </p>
+
+            <p>
+            
+                This aerobic circuit is designed to get your heart rate up. Perform the following strength exercises for 1 minute:
+            <ul>
+                <li>squats</li>
+                <li>lunges</li>
+                <li>pushups</li>
+                <li>triceps dips</li>
+                <li>torso twist </li>
+            </ul>
+
+            </p>
+        </div>
+        <hr>
+
+
+
+
+
+
+    </ol>
+
+
+    <div class="navbar">
+        <a href="Aerobic.html"><b>Back To Top</b></a>
+    </div>
+
+</body>
+
+</html>
